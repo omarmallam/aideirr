@@ -1,0 +1,33 @@
+.theme-toggle {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+}
+
+.theme-toggle-button {
+  background-color: transparent;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: all 0.3s ease;
+}
+
+.theme-toggle-button:hover {
+  background-color: #f0f0f0;
+}
+
+.dark-theme .theme-toggle-button {
+  background-color: #333;
+  color: #fff;
+  border-color: #555;
+}
+
+.dark-theme .theme-toggle-button:hover {
+  background-color: #444;
+}

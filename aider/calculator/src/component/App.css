@@ -1,0 +1,75 @@
+.component-app {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 700px;
+  margin: 0 auto;
+  padding-top: 100px;
+  transition: all 0.3s ease;
+}
+
+/* Light theme styles (default) */
+.light-theme {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.light-theme button {
+  background-color: #e9ecef;
+  color: #212529;
+}
+
+.light-theme .component-display {
+  background-color: #212529;
+  color: white;
+}
+
+/* Dark theme styles */
+.dark-theme {
+  background-color: #212529;
+  color: #f8f9fa;
+}
+
+.dark-theme button {
+  background-color: #495057;
+  color: #f8f9fa;
+}
+
+.dark-theme .component-display {
+  background-color: #343a40;
+  color: #f8f9fa;
+  border: 1px solid #495057;
+}
+
+.dark-theme .history-panel {
+  background-color: #343a40;
+  color: #f8f9fa;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.dark-theme .history-header {
+  border-bottom: 1px solid #495057;
+}
+
+.dark-theme .toggle-history {
+  background-color: #343a40;
+  color: #f8f9fa;
+  border-color: #495057;
+}
+
+.dark-theme .history-list li {
+  border-bottom: 1px solid #495057;
+}
+
+.dark-theme .history-list li:hover {
+  background-color: #495057;
+}
+
+.dark-theme .history-expression {
+  color: #adb5bd;
+}
+
+.dark-theme .empty-history {
+  color: #6c757d;
+}
